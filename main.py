@@ -28,4 +28,4 @@ def main():
   driver.find_element(by="xpath", value="/html/body/footer/div/section/div/div[1]/div[1]/div[1]/nav/ul/li[1]/a").click()
   print(driver.current_url)
 
-print(main())
+main()
